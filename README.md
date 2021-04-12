@@ -8,4 +8,10 @@ subjektif dan memerlukan waktu yang cukup banyak. Oleh karena itu, pendeteksian 
 diperlukan. 
 
 Pada projek kali ini, saya akan membuat algoritma deteksi glaukoma berdasarkan karakteristik optic disc dan optic cup dengan
-input berupa citra retina. 
+input berupa citra retina. Secara umum, pendeteksian ini dilakukan dengan langkah berikut:
+
+1. Preprocessing
+2. Lokalisasi Optic Disc
+3. Segmentasi Optic Disc dan Cup
+4. Ekstraksi Fitur Glaukoma
+5. Klasifikasi
